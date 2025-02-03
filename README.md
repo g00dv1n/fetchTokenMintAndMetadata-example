@@ -1,6 +1,6 @@
 # How to fetch SPL Token metadata using solana web3.js v2
 
-A simple example how to fetch token mint and metadata with new [Solana web3.js v2 SDK](https://github.com/anza-xyz/solana-web3.js) without extra metaplex dependencies.
+A simple example of how to fetch token mint and metadata with the new [Solana web3.js v2 SDK](https://github.com/anza-xyz/solana-web3.js) without extra metaplex dependencies.
 
 ```typescript
 // heplper code
