@@ -2,7 +2,8 @@
 
 A simple example how to fetch token mint and metadata with new [Solana web3.js v2 SDK](https://github.com/anza-xyz/solana-web3.js) without extra metaplex dependencies.
 
-```
+```typescript
+// heplper code
 import {
   addCodecSizePrefix,
   Address,
@@ -91,12 +92,9 @@ export async function fetchTokenMintAndMetadata(
 
   return [mint, metadata];
 }
-
 ```
 
-```
-// fetchTokenMintAndMetadata usage example
-
+```typescript
 import { address, createSolanaRpc } from "@solana/web3.js";
 import { fetchTokenMintAndMetadata } from "./tokenMetadata";
 
@@ -130,5 +128,4 @@ console.log(metadata.data);
     uri: "https://arweave.net/cSCP0h2n1crjeSWE9KF-XtLciJalDNFs7Vf-Sm0NNY0",
   }
 */
-
 ```
